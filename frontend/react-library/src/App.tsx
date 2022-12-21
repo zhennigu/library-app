@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import { ExploreTopBooks } from './layouts/HomePage/ExploreTopBooks';
+import { Navbar } from './layouts/NavbarAndFooter/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1> Welcome full stack
-  
-      </h1>
+    <div>
+    <Navbar/>
+    <ExploreTopBooks/>
     </div>
   );
 }
